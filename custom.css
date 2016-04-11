@@ -1,42 +1,68 @@
-
+p {
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
 h1{
   text-align: center;
 }
-@media only screen and (max-width: 500px) {
+ 
+li{
+  text-align:  center;
+  
+}
+@media only screen and (max-width: 767px) {
 h1 {
   font-size: 50px;
   font-family:"Impact";
-  
+ 
   
 }
 p{
  font-size: 20px;
   font-family:"Impact"; 
 }
+h3{
+  font-size: 20px;
+  font-family:"Impact";
 }
-@media only screen and (min-width: 500px) {
+
+.list-group{
+   font-family:"Impact";
+}
+}
+@media only screen and (min-width: 768px) {
 h1 {
   font-size: 40px;
-  font-family:;
+  font-family:"Times New Roman", Times, Serif;
   
   
 }
 p{
   font-size: 20px;
 }
+.list-group{
+   font-family:"Impact";
 }
-@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 992px) {
 h1 {
   font-size: 50px;
-  font-family:;
   
   
+}
+h3{
+  font-size: 30px;
 }
 p{
    font-size: 20px;
 }
+.list-group{
+   font-family:"Impact";
 }
-@media only screen and (min-width: 972px) {
+}
+@media only screen and (min-width: 1200px) {
 h1 {
   font-size: 100px;
   font-family:"Times New Roman", Times, serif;
@@ -47,6 +73,11 @@ p{
   font-size: 20px;
   font-family:"Times New Roman", Times, serif;
 }
+h3{
+  font-size: 60px;
+  font-family:"Times New Roman", Times, serif;
+}
+
 }
 
 .carousel {
@@ -59,3 +90,4 @@ p{
       width: 70%;
       margin: auto;
   }
+
